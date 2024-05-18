@@ -1,0 +1,168 @@
+.mobile{
+   height: 100%;
+   width: 100%;
+    color: purple;
+    background-color: rgb(100, 195, 240)
+}
+.mobiles{
+    color:rgb(10, 29, 199);
+    background-color: rgb(247, 224, 24)
+}
+ .add{
+    height: 45px;
+    width: 200px;
+    background-color: rgb(1, 18, 114);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+ }
+ .buy{
+    height: 50px;
+    width: 200px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    transform: scale(1.2);
+ }
+ .price{
+    display: flex;
+   align-items: center;
+   gap: 10px;
+ }
+ .new{
+    text-decoration: line-through;
+    font-size: 22px;
+ }
+ .Products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 2s;
+    /* display: grid;
+    disp */
+ }
+ .Laptops{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+     color: brown;
+ }
+ .Products h2{
+    color: brown;
+    background-color: rgb(193, 252, 33);
+ }
+ .Laptops h2{
+   color: brown;
+   background-color: rgb(142, 253, 179);
+ }
+ .mobiles:hover{
+   color: rgb(204, 6, 6);
+   background-color: aqua;
+ }
+ .mobile:hover{
+   color: rgb(204, 6, 6);
+   background-color: rgb(247, 243, 25);
+   
+ }
+ .Products h2:hover{
+   color: black;
+   background-color: rgb(165, 109, 238);
+ }
+ .Laptops h2:hover{
+   color:white;
+   background-color: rgb(234, 29, 241);
+ }
+ .add:hover{
+   color: #fff;
+   background-color: purple;
+   font-size: 20px;
+   transition: transform 2s;
+ }
+ .buy:hover{
+   color: #fff;
+   background-color: crimson;
+   font-size: 20px;
+   transition: transform 2s;
+ }
+ .Products p{
+  background-color: aqua;
+ }
+ .Products p:hover{
+   color: #fff;
+   background-color: black;
+   font-size: 20px;
+ }
+ .Laptops p{
+   background-color: aqua;
+ }
+ .Laptops p:hover{
+   color: #fff;
+   background-color: rgb(17, 15, 17);
+   font-size: 20px;
+ }
+ .details{
+   color: white;
+   background-color: black;
+   display: inline;
+ }
+ .Products + img{
+   height: 100px;
+   width: 100px;
+ }
+ .Products:hover + img{
+   height: 200px;
+   width: 200px;
+ }
+ .image{
+  transition: transform 2s;
+  height: 200px;
+  width: 200px;
+  transition-property: all;
+ transition-duration: 1s;
+  transition-delay: 2s; 
+ }
+ .image:hover{
+    height: 200px;
+   width: 200px; 
+    background-color: blue; 
+    transform: rotateX('30deg');
+   transform: scale(1.2);
+   scale: 2; 
+ }
+ .add:hover{
+   transform: scale(1.2);
+ }
+ .buy:hover{
+   transform: scale(1.2);
+ }
+@media screen and (min-width: 500px) and (max-width:750px ) 
+    /* .mobile{
+        height: 400px;
+    }
+    .image{
+        height: 350px;
+    }
+    .mobiles{
+        height: 450px;
+   } */
+
+.pic{
+  border: 1px solid blue;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 10px;
+}
+.image{
+  height: 300px;
+  width: 300px;
+  border-radius: 7%;
+}
